@@ -1,7 +1,7 @@
 import re
 
-FILENAME = '/home/marthalasz/Development/data/CARPATGRID_TA/CARPATGRID_TA_M.ser'
-TARGET_FILENAME = 'output.txt'
+FILENAME = '/home/hduser/Development/data/CARPATGRID_TA/CARPATGRID_TA_M.ser'
+TARGET_FILENAME = 'ta_m.csv'
 
 with open(TARGET_FILENAME, 'w') as target_file:
     target_file.write('year;month;id;value\n')
